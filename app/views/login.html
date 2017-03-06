@@ -1,0 +1,32 @@
+<div class="bg_login" ng-controller="loginCtrl">
+    <div class="logo"><img src="app/img/new/logo.png" alt=""></div>
+    <p class="dtb_delay">大头保延保业务管理平台</p>
+    <div class="login">
+        <form action="" name="myForm">
+            <h2 class="user_login">用户登录</h2>
+            <div class='land_login'>
+                <div class="col-xs-12 mt30 p-user">
+                    <i></i>
+                    <input id="username"  placeholder="请输入用户名" type="text" class="zf-input-login" ng-minlength="5" ng-model="data.username" name="username" ng-required="true">
+                </div>
+                <div class="col-xs-12 mt20 p-pw">
+                    <i></i>
+                    <input type="password"  placeholder="请输入密码" class="zf-input-login" ng-minlength="6" ng-model="data.password" name="password" ng-required="true">
+                </div>
+                <div class="col-xs-12 mt20 ">
+
+                    <input type="text"  placeholder="请输入验证码" name="verification"  ng-minlength="4" maxlength="4" class="zf-input" ng-model="data.verification"  ng-required="true">
+                    <a href="#" class="fr" ><img src="app/img/new/code_img.jpg" height="40px" width="85px"   alt=""></a>
+                </div>
+                <div class="col-xs-12 mt20 eb604b text-c" style="height:45px;overflow:hidden;">
+                    <p  ng-show="showAllErr" ng-if="(myForm.username.$invalid) && (myForm.username.$dirty)==true" class="error">你输入的用户名或密码不正确,请重新输入</p>
+                    <p  ng-show="showAllErr" ng-if="myForm.password.$invalid && myForm.password.$dirty" class="error">你输入的用户名或密码不正确,请重新输入</p>
+                    <p class="error"  ng-show="showAllErr"  ng-if="myForm.verification.$invalid && myForm.verification.$dirty">你输入验码不正确</p>
+                </div>
+                <div class="col-xs-12">
+                    <p class="submit" ng-click="submit()"  >登 &nbsp;录</p>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

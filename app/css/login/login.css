@@ -1,0 +1,140 @@
+.body_login {
+    min-width: 1200px;
+    min-height: 500px;
+
+}
+
+.bg_login {
+    background-image: url(../../img/new/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.dtb_delay {
+    text-align: center;
+    font-size: 46px;
+    color: #0db3ee;
+}
+
+.login {
+    width: 390px;
+    height: 400px;
+    position: fixed;
+    z-index: 1;
+. mt(20 px);
+    top: 25%;
+    left: 50%;
+    margin-left: -195px;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.3);
+    filter: Alpha(opacity=30);
+}
+
+.user_login {
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    z-index: 10;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.ml30 {
+    margin-top: 30px;
+}
+
+.mr30 {
+    margin-top: 30px;
+}
+
+.mb30 {
+    margin-top: 30px;
+}
+
+.text-c {
+    text-align: center;
+}
+
+.text-l {
+    text-align: left;
+}
+
+.text-r {
+    text-align: right;
+}
+
+.m0a {
+    margin: 0 auto;
+}
+
+.land_login {
+    width: 340px;
+    height: 336px;
+/ / / margin-left: 40 px;
+    margin: 0 auto;
+}
+
+.eb604b {
+    color: #eb604b
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.zf-input-login {
+    width: 100%;
+    height: 40px;
+    padding-left: 30px;
+}
+
+.zf-input {
+    width: 150px;
+    height: 40px;
+    padding-left: 30px;
+}
+
+.verification {
+. ml(50 px);
+}
+
+.error {
+. mt(20 px);
+}
+
+.submit {
+    width: 100%;
+. mt(10 px);
+    height: 50px;
+    background-color: #0db3ee;
+    text-align: center;
+    font-size: 18px;
+    line-height: 50px;
+    color: #fff;
+}
+
+.p-user, .p-pw {
+    position: relative;
+}
+
+.p-user i, .p-pw i {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 17.5px;
+    height: 17.5px;
+    background: url(../../img/new/loginIcon.png) -17.5px 0 no-repeat;
+    z-index: 1;
+    background-position: -17.5px 0;
+}
+
+.p-pw i {
+    background-position: -17.5px -17.5px;
+}
